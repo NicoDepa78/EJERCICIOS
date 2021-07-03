@@ -1,0 +1,94 @@
+    Ejercicios para práctica de pseudocódigo y diagramas:
+
+1) Recordatorio de significado de símbolos para diagramas de flujo:
+https://www.smartdraw.com/flowchart/flowchart-symbols.htm
+
+2) Intentar analizar los pasos lógicos a seguir y plasmarlos en un pseudocódigo o diagrama de flujo. No importa si alguna operación queda incompleta al no saber exactamente como expresar el cálculo, que quede indicado el paso.
+
+
+Ej01
+********
+
+Dados 5 números positivos, determinar el mayor e imprimirlo en pantalla. Si un número no es entero, no se lo debe tener en cuenta.
+
+PROGRAMA Mostrar el numero mayor
+DEFINIR n1
+DEFINIR n2
+DEFINIR n3
+DEFINIR n4
+DEFINIR n5
+
+INGRESAR n1
+n > 0 y entero SINO descartar
+INGRESAR n2
+n> 0 y entero SINO descartar
+INGRESAR n3
+n > 0 y entero SINO descartar
+INGRESAR n4
+n > 0 y entero SINO descartar
+INGRESAR n5
+n > 0 y entero SINO descartar
+
+ENCONTRAR EL MAYOR DE n1, n2, n3, n4, n5
+
+IMPRIMIR el mayor n
+
+FIN
+
+Ej02
+********
+
+Dados 2 números enteros, registrar el valor de su suma, su multiplicación y cuál de los dos es el mayor. Si un número no es entero, mostrar mensaje de error y volver a solicitar.
+Mostrar en pantalla los resultados.
+
+PROGRAMA sumar numeros
+DEFINIR NUMERO ENTERO n> 0 n1
+DEFINIR NUMERO ENTERO n> 0 n2
+CALCULAR suma = n1 + n2
+IMPRIMIR suma
+
+PROGRAMA multiplicacion 
+USAR n1 del PROGRAMA sumar numeros
+USAR n2 del PROGRAMA sumar numeros
+CALCULAR multiplicacion n1*n2
+IMPRIMIR multiplicacion
+
+PROGRAMA mayor
+USAR n1 del PROGRAMA sumar numeros
+USAR n2 del PROGRAMA sumar numeros
+
+n1 > n2 => verdadero
+               => falso
+IMPRIMIR verdadero
+
+FIN
+
+Ej04
+********
+
+Dados descripción y precio de producto, calcular total general factura.
+
+Consultar si se desea seguir ingresando, caso contrario imprimir el valor total con IVA 10.5 y 21%.
+
+PROGRAMA factura
+
+INGRESAR descripción del producto, cantidad y precio sin IVA n1
+
+INGRESAR descripción del producto, cantidad y precio sin IVA n2
+
+INGRESAR descripción del producto, cantidad y precio sin IVA n3
+
+INGRESAR descripción del producto, cantidad y precio sin IVA n..
+
+DESEA SEGUIR INGRESANDO PRODUCTO  si/no
+
+SUMATORIA n1+n2+n3+...+n.. total neto
+VALOR SUMATORIA total neto *0.105 y *0.21
+IMPRIMIR valor para 10.5 y 21
+
+FIN
+
+
+
+
+
